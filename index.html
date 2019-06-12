@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Find parks in your state(s)</title>
+        <meta name="description" content="Given a list of states, find the parks that reside there">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> 
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <form>
+            <label for="state-list">Enter state list (comma delimited): </label>
+            <input type="text" name="state-list" id="state-list" required>
+            <label for="search-limit">Limit: </label>
+            <input type="number" name="search-limit" id="search-limit" value="10" min="1" required>
+            <input type="submit" value="Search">
+        </form>
+        <h1 class="search-header"></h1>
+        <ul class="park-list"></ul>
+    </body>
+</html>

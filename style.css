@@ -1,0 +1,16 @@
+.park-list {
+    list-style: none;
+}
+
+.address {
+    margin: 0;
+}
+
+.park-name {
+    margin-bottom: 0;
+}
+
+.park-url {
+    display: block;
+    margin: 0 0 10px 0;
+}
